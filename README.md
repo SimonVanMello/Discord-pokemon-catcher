@@ -5,7 +5,7 @@ Simple python script to catch pokemons on discord from [Toasty bot](https://toas
 ```
 git clone https://github.com/TropicoDebug/Discord-pokemon-catcher.git
 cd Discord-pokemon-catcher
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 > You should install the requirements in a python venv if you already have the official discord package since they use the same name
 ## How to use
