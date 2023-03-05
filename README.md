@@ -14,4 +14,5 @@ Usage is stupid simple, you just need to put your [discord token](https://www.an
 ```
 python3 main.py
 ```
-
+___
+PS: using selfbots is not allowed by discord and im not encouraging you to do so
