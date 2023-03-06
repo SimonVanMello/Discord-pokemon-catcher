@@ -1,4 +1,5 @@
 {
-    "token": "your_discord_token",
-    "channel_id": "channel_where_you_want_to_catch_pokemons"
+    "bot_token": "bot_token_goes_here",
+    "channel_id": 0123456789,
+    "owner_name": ""
 }
