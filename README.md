@@ -14,7 +14,7 @@ You can either run the bot with your main account or run it on an other account 
 
 ### Using your main account
 Usage is stupid simple, you just need to put your [discord token](https://www.androidauthority.com/get-discord-token-3149920/) and the [id of the channel](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) where you want to catch pokemons in data.json and then run the script.
-> You can leave the owner_name empty
+> You can leave the owner_name field empty
 
 ### Using an alt account
 If you run the bot on an alt account, you will also need to put your main discord username (example: Tropico#0112) in data.json (in the owner_name field) so that you can securely use the ```giveme command```.

@@ -18,7 +18,7 @@ class Client(discord.Client):
                 await channel.send(f";give {message.author.mention} {pokemon}")
                 await asyncio.sleep(1)
                 await channel.send("yes")
-                await asyncio.sleep(2)
+                await asyncio.sleep(1)
             except Exception as e:
                 print(f"error : {e}")
 
@@ -48,6 +48,11 @@ def loadData() -> dict:
         return json.load(f)
 
 def validData(data: dict) -> bool:
+    if type(data["channel_id"]) == str:
+        try:
+            data["channel_id"] = int(data["channel_id"])
+        except Exception as e:
+            return False
     if type(data["channel_id"]) != int:
         return False
     if not data["bot_token"]:
