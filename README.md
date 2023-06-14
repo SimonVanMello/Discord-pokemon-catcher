@@ -19,6 +19,7 @@ Usage is stupid simple, you just need to put your [discord token](https://www.an
 ### Using an alt account
 If you run the bot on an alt account, you will also need to put your main discord username (example: Tropico#0112) in data.json (in the owner_name field) so that you can securely use the ```giveme command```.
 > You also need to fill the 2 other fields
+
 > If you already changed your discord username with an unique one without the 4 digits at the ends, just use your new username followed by `#0` for your username
 
 #### Giveme command
