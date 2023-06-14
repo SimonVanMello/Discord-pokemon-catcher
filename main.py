@@ -28,7 +28,7 @@ class Client(discord.Client):
         # check if the owner name is set in data.json
         if not data["owner_name"]:
             return
-        # check if the message author is the one specified in data.json
+        # check if the message author is the one specified in data.json ()
         if str(message.author) != data["owner_name"]:
             return
         # check if the message was sent in the channel specified in data.json
@@ -59,7 +59,7 @@ def validData(data: dict) -> bool:
         return False
     if len(data["bot_token"].split(".")) != 3:
         return False
-    if data["owner_name"] and not re.search("^.{3,32}#[0-9]{4}$", data["owner_name"]):
+    if data["owner_name"] and not re.search("^.{3,32}#[0-9]{1,4}$", data["owner_name"]):
         return False
     return True
 
